@@ -18,7 +18,7 @@ const options = {
     const section = document.querySelector("#lista");
     section.insertAdjacentHTML(
       "beforeend",
-      `<img style="width:150px" src=${url} alt=${url}>`
+      `<img style="width:250px" class="zoom-image" src=${url} alt=${url}>`
     )
   }  
 
